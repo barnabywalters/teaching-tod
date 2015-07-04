@@ -1,5 +1,6 @@
 # coding: utf-8
 
+
 def say_hello(target=None):
 	if target is None:
 		return "Hello"
@@ -38,10 +39,3 @@ if __name__ == '__main__':
 		print " -> Success! Calling say_hello with {} returns {}".format(arguments, expected)
 	else:
 		print " -> Failure! Calling say_hello with {} returns {} when it was supposed to return {}".format(arguments, actual, expected)
-
-
-
-
-
-
-
